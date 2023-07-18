@@ -1,10 +1,10 @@
-using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations; //required metodunu kulanabilmek için kütüphaneyi ekledik
 
 namespace BtkAkademi.Models
 {
     public class Candidate
     {
-        [Required(ErrorMessage = "E-mail is required")]
+        [Required(ErrorMessage = "E-mail is required")] //required metodunu doldurulması zorunlu alan yapmak için kullandık
         public String? Email { get; set; } = String.Empty;
         [Required(ErrorMessage = "First Name is required")]
         public String? FirstName { get; set; } = String.Empty;

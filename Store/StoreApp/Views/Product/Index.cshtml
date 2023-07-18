@@ -1,26 +1,17 @@
-@model List<StoreApp.Models.Product>
+@model IQueryable<Product>
 
-<!DOCTYPE html>
-<html lang="en">
+@section Footer{
+    <div>
+        Only for Index Footer
+    </div>
+}
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Document</title>
-</head>
 
-<body>
-    @foreach (StoreApp.Models.Product prd in Model)
+<div class="row ">
+    @foreach (Entities.Models.Product prd in Model)
     {
-        <div>
-            <h3>@prd.ProductName</h3>
-            <p>@prd.Price</p>
-            <p>
-                <a href="/Product/Get/@prd.Id">Get Details</a>
-            </p>
-        </div>
-    }
-</body>
 
-</html>
+        <partial name="_ProductCard" model="@prd" />
+
+    }
+</div>
