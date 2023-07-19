@@ -6,7 +6,7 @@
 
 namespace StoreApp.Migrations
 {
-    /// <inheritdoc />
+    // <inheritdoc />
     public partial class startPoint : Migration
     {
         /// <inheritdoc />

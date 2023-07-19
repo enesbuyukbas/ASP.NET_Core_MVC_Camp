@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vdqYoYjvN3O27dXXxxNPwL+84wps1ZHoxJN9uvukV/0=",
+  "Hash": "R2gMKtOjyA+mQ75J4W1voSTSS293YdsE8fSlL25YX5w=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\StoreApp\\wwwroot\\images\\productImg.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/productImg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\productImg.jpg"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",

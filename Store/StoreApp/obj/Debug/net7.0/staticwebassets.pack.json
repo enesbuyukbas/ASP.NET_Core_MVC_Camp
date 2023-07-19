@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\StoreApp\\wwwroot\\images\\productImg.jpg",
+      "PackagePath": "staticwebassets\\images\\productImg.jpg"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
