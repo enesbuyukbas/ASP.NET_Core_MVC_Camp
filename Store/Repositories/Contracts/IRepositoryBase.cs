@@ -9,5 +9,9 @@ namespace Repositories.Contracts
         T? FinByCondition(Expression<Func<T,bool>> expression, bool trackChanges);
 
         void Create(T entity);
+
+        void Remove(T entity);
+
+        void Update(T entity);
     }
 }

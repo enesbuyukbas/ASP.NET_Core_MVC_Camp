@@ -10,7 +10,9 @@ namespace Repositories
 
         }
 
-        public void CreateProduct(Product product) => Create(product);
+        public void CreateOneProduct(Product product) => Create(product);
+
+        public void DeleteOneProduct(Product product) => Remove(product);
 
         public IQueryable<Product> GetAllProdutcs(bool trackChanges) => FindAll(trackChanges);
 
@@ -19,9 +21,8 @@ namespace Repositories
         {
             return FinByCondition(p => p.Id.Equals(id),trackChanges);
         }
-        
 
-        
+        public void UpdateOneProduct(Product entity) => Update(entity);
 
     }
 }

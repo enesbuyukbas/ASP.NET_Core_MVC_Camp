@@ -7,6 +7,10 @@ using Services.Contracts;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
+
+
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnections"),
@@ -21,6 +25,8 @@ builder.Services.AddScoped<IServiceManager, ServiceManager>();
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 
+
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
@@ -40,6 +46,7 @@ app.UseEndpoints(endpoints =>
         "default",
         "{controller=Home}/{action=Index}/{id?}"
     );
+    endpoints.MapRazorPages();
 });
 
 

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4n/eAEeFxB/7NfUwF2CJoh0qTwUFAyagV7Yv29ZV4fZvrAgv/T6cGT+BgLy6cjEt6Df2/6I/KIhTOcJWp/y/Lw==",
+  "dgSpecHash": "1sOz/1YgCg7q4HzXlvDXSJaaJ2quucxHsaVji7gXSqfVUkSPNFq4k7pT1BD9xDa6WasbKmGCZsI5Sm+xznbD1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\MY PROJECTS\\aspnet\\MVC\\Store\\Services\\Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.9\\microsoft.data.sqlite.core.7.0.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
